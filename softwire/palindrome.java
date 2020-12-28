@@ -12,9 +12,7 @@ public class palindrome {
     }
 
     static boolean checkPalindrome(String inputString) {
-        if (inputString.equals(new StringBuilder(inputString).reverse().toString())) return true;
-
-        return false;
+        return inputString.equals(new StringBuilder(inputString).reverse().toString());
     }
 }
 
